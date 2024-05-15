@@ -17,9 +17,6 @@ const Bio = () => {
             name
             summary
           }
-          social {
-            twitter
-          }
         }
       }
     }
@@ -32,7 +29,15 @@ const Bio = () => {
     <div className="bio">
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+          Written by{" "}
+          <strong>
+            <a href="https://linkedin.com/in/namyeop/" target="blank">
+              {author.name}.
+            </a>
+          </strong>{" "}
+          {author?.summary || null}
+          {` `}
+          Thank you for reaching out to me through the World Wide Web.
         </p>
       )}
     </div>
