@@ -1,9 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A blog about Web Development, Fintech, and Entrepreneurship.]]></description><link>https://namyeop.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 15 May 2024 14:42:25 GMT</lastBuildDate><item><title><![CDATA[풀스택 개발자]]></title><description><![CDATA[…]]></description><link>https://namyeop.github.io/fullstack/</link><guid isPermaLink="false">https://namyeop.github.io/fullstack/</guid><pubDate>Wed, 15 May 2024 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;얼마 전 읽은 &lt;a href=&quot;%22https://news.ycombinator.com/item?id=39902372%22&quot;&gt;&quot;당신이 기술 코파운더를 찾을 수 없는 이유&quot;&lt;/a&gt;라는 글을 읽고 우리나라의 현실을 떠올려 보았다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A blog about Web Development, Fintech, and Entrepreneurship.]]></description><link>https://namyeop.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 19 May 2024 11:23:00 GMT</lastBuildDate><item><title><![CDATA[풀스택 프레임워크]]></title><description><![CDATA[2024 React Conf에서 React 메타 프레임워크인 REMIX가 React Router와의 통합을 발표했다. React…]]></description><link>https://namyeop.github.io/fullstack-framework/</link><guid isPermaLink="false">https://namyeop.github.io/fullstack-framework/</guid><pubDate>Sun, 19 May 2024 19:29:03 GMT</pubDate><content:encoded>&lt;p&gt;2024 React Conf에서 React 메타 프레임워크인 REMIX가 React Router와의 통합을 발표했다. React 위에서 돌아가는 웹 애플리케이션을 만드는 개발자 경험은 바뀌는 게 없겠지만,
+이 통합에서 파생되어 &quot;풀스택 프레임워크&quot;가 무엇인지에 대해 X에서 열띤 논쟁이 촉발되었다.&lt;/p&gt;
+&lt;p&gt;먼저 Laravel의 Founder인 Taylor Otwell이 &quot;Laravel&quot; 혹은 &quot;Rails&quot;가 말하는 풀스택 프레임워크가 NextJS나 Remix가 말하는 풀스택 프레임워크가 다른 것을 지칭하고 있다고 말했다.
+NextJS나 Remix와 같은 클라이언트 사이드에서 출발한 프레임워크들은 GET 요청을 더 잘 할 수 있게 만들어주는 도구일 뿐, 유효성 검사/ORM/인증/이메일 전송 등 Batteries Included라고 표현할만한 기능들이
+포함되어 있지는 않다고 보고 있다(Batteries Included Slang의 적절한 번역어는 무엇이 있을까...).&lt;/p&gt;
+&lt;p&gt;Remix의 Founder Micheal Jackson은 ORM과 같은 기능이 내장되어 있지 않다는 점에서 JS 프레임워크 생태계가 발전할 여지는 있다는 데 동의하지만, 발전된 웹 기술에 맞춰 정말로 빠르게 실제 프로덕트를 만들 수 있는 프레임워크는
+React Router나 NextJS가 더 적합하다고 반박했다. 요즘 Saas 써서 메일 보내지, 프레임워크 내장 기능으로 메일 보내는 기능은 만들 필요도, 쓸 필요도 없다고 덧붙였다.&lt;/p&gt;
+&lt;p&gt;관점의 차이는 분명하다 - &quot;Fully&quot; 동작하는 웹 애플리케이션 기능을 &quot;구현&quot;할 수 있으면 되는가, &quot;내장&quot;된 기능으로 구현할 수 있어야 하는가?&lt;/p&gt;
+&lt;p&gt;황성현 님이 &lt;a href=&quot;https://x.com/0xd669/status/1776814233784889452&quot;&gt;말씀하신 것&lt;/a&gt;처럼 빠르게 가설 검증하고 시장을 테스트해야 하는 입장에서는 &quot;풀스택 프레임워크&quot;는 꼭 필요하다.
+한 걸음 더 들어가서, 어떤 풀스택 프레임워크가 더 적합하냐도 논쟁거리가 될 수 있을 것 같다.&lt;/p&gt;
+&lt;p&gt;Laravel, Next 모두 하나로 수렴하며 닮아간다. 이게 내 결론이다.
+MVC 패턴 잘 지키다가 갑자기 One Page Development라고 들고나온 &lt;a href=&quot;https://livewire.laravel.com/docs/volt&quot;&gt;Volt&lt;/a&gt;는 좀 뜬금없다.
+Next(더 정확히는 Vercel SDK)는 Component 렌더링하는 코드에서 &lt;a href=&quot;https://vercel.com/docs/storage/vercel-postgres/sdk#sql&quot;&gt;Raw SQL&lt;/a&gt;을 쓰기도 한다. 이상하다.&lt;/p&gt;
+&lt;p&gt;p.s.
+뭐가 됐든 이제 스프링은 논쟁에 끼워주지도 않는다는 사실...
+프론트/백 나눠서 API 규격 맞추고 문서 Versioning 하는 거 덜 하면서 개발 할 수 있을 것 같은데...&lt;/p&gt;</content:encoded></item><item><title><![CDATA[풀스택 개발자]]></title><description><![CDATA[…]]></description><link>https://namyeop.github.io/fullstack/</link><guid isPermaLink="false">https://namyeop.github.io/fullstack/</guid><pubDate>Wed, 15 May 2024 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;얼마 전 읽은 &lt;a href=&quot;https://news.ycombinator.com/item?id=39902372&quot;&gt;&quot;당신이 기술 코파운더를 찾을 수 없는 이유&quot;&lt;/a&gt;라는 글을 읽고 우리나라의 현실을 떠올려 보았다.&lt;/p&gt;
 &lt;p&gt;개발자라면 무릇 풀스택 개발자를 지향해야 한다고 생각하지만, 창업을 하려는 사람과 직업을 구하려는 사람의 입장이 다를 것이다.
 회사의 성장과 본인의 성장을 일치시킬 수 있는 코파운더/CTO 급 개발자라면 풀스택 개발자가 되어야 할 수 밖에 없다.
 웹과 앱 클라이언트 대응을 따로 할 만큼 자금이 충분치도 않을 것이며, 서버를 세팅하고 모니터링하는 업무도 무리해서라도 한 사람이 하는 것이 비용 절감에 도움이 된다.
 몸값을 계속 높여 회사를 점프해가야 하는 구직자의 입장에서는 큰 회사에서 쓰는 기술에 맞춰 본인의 전문성을 갖추기를 원할 것이니, 한 가지 업무에만 집중하기를 원할 것이고.&lt;/p&gt;
 &lt;p&gt;풀스택 개발자를 환상처럼 취급하는 시각도 그리 마음에 들지 않고, 한 가지만 잘하려는 개발자도 그리 탐탁치는 않다.
 국내 개발자 시장 특성상 특정 프레임워크나 언어가 선호될 수 밖에 없고, 엔트리 레벨에서 어떻게든 그 시장에 진입하기 위해 애써야 하는 상황 자체가 더 큰 문제이기는 하다.
-존경하는 선배님의 &lt;a href=&quot;%22https://blog.naver.com/birdparang/223411456071%22&quot;&gt;글&lt;/a&gt;에서처럼 스스로를 Artisan이라고 생각하는 전문가가 더 선호되기를, 그런 개발자를 찾아내는
+&lt;a href=&quot;https://blog.naver.com/birdparang/223411456071&quot;&gt;존경하는 선배님의 글&lt;/a&gt;에서처럼 스스로를 Artisan이라고 생각하는 전문가가 더 선호되기를, 그런 개발자를 찾아내는
 눈 밝은 회사가 더 많아지기를 기대한다.&lt;/p&gt;</content:encoded></item></channel></rss>
