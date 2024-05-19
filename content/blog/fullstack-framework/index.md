@@ -1,7 +1,7 @@
 ---
 title: "풀스택 프레임워크"
 date: "2024-05-19T19:29:03.284Z"
-description: "국내 개발자 시장에서 풀스택 개발자의 인식과 위상"
+description: "React Conf 이후 풀스택 프레임워크 논쟁"
 ---
 
 2024 React Conf에서 React 메타 프레임워크인 REMIX가 React Router와의 통합을 발표했다. React 위에서 돌아가는 웹 애플리케이션을 만드는 개발자 경험은 바뀌는 게 없겠지만,
